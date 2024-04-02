@@ -1,6 +1,0 @@
-/*C2*/SET SCHEMA PUBLIC
-SET SCHEMA "PUBLIC"
-CREATE TABLE events (\u000d\u000a    id VARCHAR(255) NOT NULL PRIMARY KEY,\u000d\u000a    title VARCHAR(255) NOT NULL,\u000d\u000a    details VARCHAR(255) NOT NULL,\u000d\u000a    slug VARCHAR(255) NOT NULL,\u000d\u000a    maximum_attendees INTEGER NOT NULL\u000d\u000a)
-INSERT INTO "flyway_schema_history" VALUES(1,'1','create-table-events','SQL','V1__create-table-events.sql',1697759344,'SA','2024-04-01 23:53:26.334983',15,'1')
-COMMIT
-SET SCHEMA "PUBLIC"

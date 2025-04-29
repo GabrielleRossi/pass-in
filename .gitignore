@@ -31,3 +31,22 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Ignorar arquivos de log
+*.log
+logs/
+log/
+
+# Outros exemplos úteis:
+# Ignorar diretórios do IntelliJ
+.idea/
+*.iml
+
+# Ignorar diretório do Eclipse
+.project
+.classpath
+.settings/
+
+# Ignorar arquivos do sistema
+.DS_Store
+Thumbs.db

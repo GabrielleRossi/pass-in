@@ -9,6 +9,12 @@ Esta é uma API simples para gerenciamento de eventos e participantes, desenvolv
 - Localize a classe `PassInApplication`.
 
 - Execute a aplicação Java.
+### Build do container
+docker build -t pass-in-java .
+
+### Executando container
+
+docker run -p 8080:8080 pass-in-java
 
 #### A API estará disponível em:
 
